@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD6D83EADFD6D9E4A77EB6AB /* Pods_EpicHomeTry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E0CE8D97309CB89C7060203 /* Pods_EpicHomeTry.framework */; };
+		C569A00A2710B58A00451AD4 /* FiltersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C569A0092710B58A00451AD4 /* FiltersCollectionViewCell.swift */; };
+		C569A00C2710BF1600451AD4 /* VC+CollectionViewDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = C569A00B2710BF1600451AD4 /* VC+CollectionViewDelegates.swift */; };
+		C569A00E2710CA2E00451AD4 /* FilterOneCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C569A00D2710CA2E00451AD4 /* FilterOneCollectionViewCell.swift */; };
 		C5C3C0CD270F661B00015C4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C3C0CC270F661B00015C4F /* AppDelegate.swift */; };
-		C5C3C0CF270F661B00015C4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C3C0CE270F661B00015C4F /* SceneDelegate.swift */; };
-		C5C3C0D1270F661B00015C4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C3C0D0270F661B00015C4F /* ViewController.swift */; };
-		C5C3C0D4270F661B00015C4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C3C0D2270F661B00015C4F /* Main.storyboard */; };
+		C5C3C0D1270F661B00015C4F /* VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C3C0D0270F661B00015C4F /* VC.swift */; };
 		C5C3C0D6270F661F00015C4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C3C0D5270F661F00015C4F /* Assets.xcassets */; };
 		C5C3C0D9270F661F00015C4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C3C0D7270F661F00015C4F /* LaunchScreen.storyboard */; };
+		C5D0860E271072BB0098CCD0 /* VC+TableviewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D0860D271072BB0098CCD0 /* VC+TableviewExtension.swift */; };
+		C5D08612271073F70098CCD0 /* Presnter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D08611271073F70098CCD0 /* Presnter.swift */; };
+		C5D08614271080A90098CCD0 /* VC+PageControllerDelegations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D08613271080A90098CCD0 /* VC+PageControllerDelegations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3407F553FB6CB6AEACD0E13A /* Pods-EpicHomeTry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpicHomeTry.debug.xcconfig"; path = "Target Support Files/Pods-EpicHomeTry/Pods-EpicHomeTry.debug.xcconfig"; sourceTree = "<group>"; };
+		3FAC2D6C90398B5FF413775E /* Pods-EpicHomeTry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpicHomeTry.release.xcconfig"; path = "Target Support Files/Pods-EpicHomeTry/Pods-EpicHomeTry.release.xcconfig"; sourceTree = "<group>"; };
+		4E0CE8D97309CB89C7060203 /* Pods_EpicHomeTry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EpicHomeTry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C569A0092710B58A00451AD4 /* FiltersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersCollectionViewCell.swift; sourceTree = "<group>"; };
+		C569A00B2710BF1600451AD4 /* VC+CollectionViewDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+CollectionViewDelegates.swift"; sourceTree = "<group>"; };
+		C569A00D2710CA2E00451AD4 /* FilterOneCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterOneCollectionViewCell.swift; sourceTree = "<group>"; };
 		C5C3C0C9270F661B00015C4F /* EpicHomeTry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpicHomeTry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C3C0CC270F661B00015C4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C5C3C0CE270F661B00015C4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C5C3C0D0270F661B00015C4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C5C3C0D3270F661B00015C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5C3C0D0270F661B00015C4F /* VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC.swift; sourceTree = "<group>"; };
 		C5C3C0D5270F661F00015C4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5C3C0D8270F661F00015C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5C3C0DA270F661F00015C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D0860D271072BB0098CCD0 /* VC+TableviewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+TableviewExtension.swift"; sourceTree = "<group>"; };
+		C5D08611271073F70098CCD0 /* Presnter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presnter.swift; sourceTree = "<group>"; };
+		C5D08613271080A90098CCD0 /* VC+PageControllerDelegations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+PageControllerDelegations.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6D83EADFD6D9E4A77EB6AB /* Pods_EpicHomeTry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		006700E77B88F1C96AD56DD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3407F553FB6CB6AEACD0E13A /* Pods-EpicHomeTry.debug.xcconfig */,
+				3FAC2D6C90398B5FF413775E /* Pods-EpicHomeTry.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8897D0A84D764615DFBAA54C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E0CE8D97309CB89C7060203 /* Pods_EpicHomeTry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C5C3C0C0270F661B00015C4F = {
 			isa = PBXGroup;
 			children = (
 				C5C3C0CB270F661B00015C4F /* EpicHomeTry */,
 				C5C3C0CA270F661B00015C4F /* Products */,
+				006700E77B88F1C96AD56DD2 /* Pods */,
+				8897D0A84D764615DFBAA54C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +89,34 @@
 			isa = PBXGroup;
 			children = (
 				C5C3C0CC270F661B00015C4F /* AppDelegate.swift */,
-				C5C3C0CE270F661B00015C4F /* SceneDelegate.swift */,
-				C5C3C0D0270F661B00015C4F /* ViewController.swift */,
-				C5C3C0D2270F661B00015C4F /* Main.storyboard */,
+				C5D08610271073E50098CCD0 /* Presnter */,
+				C5D0860F271073CF0098CCD0 /* Views */,
 				C5C3C0D5270F661F00015C4F /* Assets.xcassets */,
 				C5C3C0D7270F661F00015C4F /* LaunchScreen.storyboard */,
 				C5C3C0DA270F661F00015C4F /* Info.plist */,
 			);
 			path = EpicHomeTry;
+			sourceTree = "<group>";
+		};
+		C5D0860F271073CF0098CCD0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C5C3C0D0270F661B00015C4F /* VC.swift */,
+				C5D0860D271072BB0098CCD0 /* VC+TableviewExtension.swift */,
+				C5D08613271080A90098CCD0 /* VC+PageControllerDelegations.swift */,
+				C569A0092710B58A00451AD4 /* FiltersCollectionViewCell.swift */,
+				C569A00D2710CA2E00451AD4 /* FilterOneCollectionViewCell.swift */,
+				C569A00B2710BF1600451AD4 /* VC+CollectionViewDelegates.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C5D08610271073E50098CCD0 /* Presnter */ = {
+			isa = PBXGroup;
+			children = (
+				C5D08611271073F70098CCD0 /* Presnter.swift */,
+			);
+			path = Presnter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5C3C0DD270F661F00015C4F /* Build configuration list for PBXNativeTarget "EpicHomeTry" */;
 			buildPhases = (
+				144E378E18C1882357801E61 /* [CP] Check Pods Manifest.lock */,
 				C5C3C0C5270F661B00015C4F /* Sources */,
 				C5C3C0C6270F661B00015C4F /* Frameworks */,
 				C5C3C0C7270F661B00015C4F /* Resources */,
+				44E6BBECD575D8CC03AECCFC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,34 +180,72 @@
 			files = (
 				C5C3C0D9270F661F00015C4F /* LaunchScreen.storyboard in Resources */,
 				C5C3C0D6270F661F00015C4F /* Assets.xcassets in Resources */,
-				C5C3C0D4270F661B00015C4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		144E378E18C1882357801E61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EpicHomeTry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44E6BBECD575D8CC03AECCFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EpicHomeTry/Pods-EpicHomeTry-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EpicHomeTry/Pods-EpicHomeTry-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EpicHomeTry/Pods-EpicHomeTry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C5C3C0C5270F661B00015C4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5C3C0D1270F661B00015C4F /* ViewController.swift in Sources */,
+				C5D08612271073F70098CCD0 /* Presnter.swift in Sources */,
+				C569A00E2710CA2E00451AD4 /* FilterOneCollectionViewCell.swift in Sources */,
+				C5C3C0D1270F661B00015C4F /* VC.swift in Sources */,
+				C569A00A2710B58A00451AD4 /* FiltersCollectionViewCell.swift in Sources */,
 				C5C3C0CD270F661B00015C4F /* AppDelegate.swift in Sources */,
-				C5C3C0CF270F661B00015C4F /* SceneDelegate.swift in Sources */,
+				C5D0860E271072BB0098CCD0 /* VC+TableviewExtension.swift in Sources */,
+				C5D08614271080A90098CCD0 /* VC+PageControllerDelegations.swift in Sources */,
+				C569A00C2710BF1600451AD4 /* VC+CollectionViewDelegates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C5C3C0D2270F661B00015C4F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C5C3C0D3270F661B00015C4F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C5C3C0D7270F661F00015C4F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,12 +375,14 @@
 		};
 		C5C3C0DE270F661F00015C4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3407F553FB6CB6AEACD0E13A /* Pods-EpicHomeTry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X43UT553Y2;
 				INFOPLIST_FILE = EpicHomeTry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +396,14 @@
 		};
 		C5C3C0DF270F661F00015C4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FAC2D6C90398B5FF413775E /* Pods-EpicHomeTry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X43UT553Y2;
 				INFOPLIST_FILE = EpicHomeTry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
